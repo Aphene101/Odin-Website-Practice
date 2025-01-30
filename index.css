@@ -1,9 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
     font-family: "Roboto", sans-serif;
 }
 
@@ -166,4 +168,5 @@ h3, .text>p {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    justify-self: flex-end;
 }
