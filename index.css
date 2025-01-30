@@ -58,3 +58,21 @@ img {
     width: 400px;
     height: auto;
 }
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 thick;
+    border-radius: 15px;
+}
