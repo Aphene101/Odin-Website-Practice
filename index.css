@@ -65,9 +65,11 @@ img {
     align-items: center;
 }
 
-.boxes {
+.boxes, .box-text {
     display: flex;
     gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -75,4 +77,9 @@ img {
     height: 150px;
     border: solid #3882F6 thick;
     border-radius: 15px;
+}
+
+.box-text {
+    width: 150px;
+    text-align: center;
 }
